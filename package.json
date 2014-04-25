@@ -1,0 +1,9 @@
+{
+    "name" : "font",
+    "version" : "0.0.1",
+    "description" : "Font variables",
+    "repository" : "https://github.com/shoelace-ui/font.git",
+    "keywords" : ["stylus","font","variable","variables"],
+    "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
+    "license" : "MIT"
+}

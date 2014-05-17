@@ -1,0 +1,26 @@
+/**
+ * Module dependencies
+ */
+
+@require 'shoelace-ui-font-family'
+@require 'shoelace-ui-font-size'
+@require 'shoelace-ui-line-height'
+
+/**
+ * Define `font` properties variables
+ */
+
+font--base        ?= s('%s/%s', font-size--base, line-height--base) font-family--sans-serif
+font--md           = font--base
+
+font--extra-large ?= s('%s/%s', font-size--extra-large, line-height--extra-large) font-family--sans-serif
+font--xl           = font--extra-large
+
+font--large       ?= s('%s/%s', font-size--large, line-height--large) font-family--sans-serif
+font--lg           = font--large
+
+font--small       ?= s('%s/%s', font-size--small, line-height--small) font-family--sans-serif
+font--sm           = font--small
+
+font--extra-small ?= s('%s/%s', font-size--extra-small, line-height--extra-small) font-family--sans-serif
+font--xm           = font--extra-small

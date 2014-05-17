@@ -7,3 +7,7 @@ Font variables.
 ```sh
 $ npm install shoelace-ui/font
 ```
+
+## License
+
+MIT

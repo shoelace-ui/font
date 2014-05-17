@@ -1,0 +1,44 @@
+/**
+ * Module dependencies
+ */
+
+@require './variables'
+
+/**
+ * Apply range keywords with transparency.
+ *
+ * Examples:
+ *
+ *   .base
+ *     font base
+ *
+ *   .md
+ *     font md
+ *
+ *   .large
+ *     font large
+ *
+ * @mixin
+ * @param {String} size
+ */
+
+font(size)
+  add-property('font', (lookup('font--' + size) or arguments))
+
+/**
+ * A generic font-fixer.
+ *
+ * Notes:
+ *
+ *   1. Correct font family not being inherited in all browsers.
+ *   2. Correct font size not being inherited in all browsers.
+ *   3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ *
+ * @mixin
+ */
+
+font--mixin-fix()
+  font-family inherit // 1
+  font-size 100% // 2
+  margin 0 // 3
+

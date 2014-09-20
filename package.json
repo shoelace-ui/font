@@ -1,14 +1,17 @@
 {
   "name": "shoelace-ui-font",
-  "version": "0.0.1",
-  "description": "Font variables",
+  "version": "0.1.0",
+  "description": "Font variables and mixin",
   "repository": "https://github.com/shoelace-ui/font.git",
-  "keywords": ["shoelace", "font"],
+  "keywords": [
+    "shoelace",
+    "font"
+  ],
   "author": "Michael Andrew Vanasse <mail@mndvns.com>",
   "license": "MIT",
   "dependencies": {
-    "shoelace-ui-font-size": "git+https://github.com/shoelace-ui/font-size.git",
-    "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
-    "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git"
+    "shoelace-ui-line-height": "^0.1.0",
+    "shoelace-ui-font-size": "^0.1.0",
+    "shoelace-ui-font-family": "^0.1.0"
   }
 }

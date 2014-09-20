@@ -1,13 +1,17 @@
-# font
+#  font
 
-Font variables.
+Font variables and mixin
 
-## Installation
+## Install
 
 ```sh
-$ npm install shoelace-ui/font
+$ npm install shoelace-ui-font
 ```
+## Usage
 
+```styl
+@require 'shoelace-ui-font'
+```
 ## License
 
 MIT
